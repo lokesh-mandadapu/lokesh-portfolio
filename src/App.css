@@ -20,12 +20,17 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 1rem;
+  zoom: 1;
   background:
     radial-gradient(circle at top, rgba(41, 65, 145, 0.28), transparent 30%),
     radial-gradient(circle at bottom right, rgba(123, 64, 255, 0.18), transparent 25%),
@@ -48,6 +53,7 @@ button, input, textarea {
 }
 
 #root {
+  width: 100%;
   min-height: 100vh;
 }
 
